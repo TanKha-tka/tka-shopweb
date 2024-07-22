@@ -105,6 +105,10 @@
         display: block;
         margin-right: 16px;
     }
+    .nav__input:checked ~ .nav__mobile {
+        overflow: auto;
+        max-height: 100%;
+    }
     .pagination {
         padding-left: 0;
     }
@@ -124,6 +128,9 @@
     }
     .header__logo-img {
         width: 110px;
+    }
+    .product-item__discount-label {
+        top: 0;
     }
     .footer__content {
         padding: 0 16px;
