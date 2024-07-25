@@ -129,8 +129,11 @@
     .header__logo-img {
         width: 110px;
     }
-    .product-item__discount-label {
+    .product-item__discount-percent {
         top: 0;
+    }
+    .product-item__discount-label {
+        top: -8px;
     }
     .footer__content {
         padding: 0 16px;
